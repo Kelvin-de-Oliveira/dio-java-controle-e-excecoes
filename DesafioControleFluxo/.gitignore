@@ -4,14 +4,13 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/*
+!.idea/codeStyles/
+!.idea/compiler.xml
+!.idea/modules.xml
 *.iws
-*.iml
 *.ipr
-
+*.iml
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -36,3 +35,26 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Compilados do Java
+*.class
+
+# Diretório de saída padrão do IntelliJ IDEA
+/out/
+target/
+
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por testes
+/test-output/
+
+# Arquivos ocultos
+.*~
